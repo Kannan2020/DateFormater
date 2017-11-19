@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-namespace DateFormater
+namespace DateFormatter
 {
     /// <summary>
     /// Formating Date for what ever we want

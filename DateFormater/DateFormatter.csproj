@@ -1,20 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-   <PackageId>DateFormater.Kannan</PackageId>
+    <TargetFramework>netstandard1.5</TargetFramework>
+   <PackageId>DateFormatter.Kannan</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>Kannan</Authors>
-    <Description>Utility for formating date</Description>
+    <Description>Utility for formatting date</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>First release</PackageReleaseNotes>
     <Copyright>Copyright 2017 (c) Kannan. All rights reserved.</Copyright>
     <PackageTags>Use to formating dates</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <AssemblyName>DateFormatter</AssemblyName>
+    <RootNamespace>DateFormatter</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\Release\netstandard2.0\DateFormater.xml</DocumentationFile>
-    <OutputPath>bin\Release\netstandard2.0\</OutputPath>
+    <DocumentationFile>bin\Release\netstandard1.5\DateFormatter.xml</DocumentationFile>
+    <OutputPath>bin\Release\netstandard1.5\</OutputPath>
   </PropertyGroup>
 
 </Project>
